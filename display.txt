@@ -1,0 +1,16 @@
+ $("#number-grid")
+                                    .append($("<div class='col-auto col-xl-3 px-4 my-5' style='height: 309.375px;'>")
+                                        .append($("<div class='card border-info border-2 h-100'>")
+                                            .append($(" <div class='card-body d-flex flex-column justify-content-between p-4'>")
+                                                .append($("<span class='badge bg-info position-absolute top-0 start-50 translate-middle text-uppercase text-primary' style='font-size: 25px;'>" + element.name + "</span>"))
+                                                .append($("<div style='padding: 3px;'>")
+                                                    .append($("<div class='container'>")
+                                                        .append($("<div class='row py-5'>")
+                                                            .append($(" <div class='col-md-6'>")
+                                                                .append($("<h6 class='fw-bold text-muted'>Priority</h6>"))
+                                                                .append("<h1 class='display-1 fw-bold mb-4' style='font-size: 100px;'>" + priority_queue + "</h1>"))
+                                                            .append($("<div class='col-md-6'>")
+                                                                .append($("<h6 class='fw-bold text-muted'>Queue</h6>"))
+                                                                .append($("<h1 class='display-1 fw-bold mb-4' style='font-size: 100px;'>" + regular_queue_number + "</h1>"))))))))
+                                    );
+                            });
